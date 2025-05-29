@@ -19,7 +19,7 @@ if (boot == "загрузка"):
           if addres == "0":
              break;
           if addres == "h":
-             file = open(df, 'r') 
+             file = open("/home/nik/Рабочий стол/Школьник для Linux/КОС/helps/help KOS", 'r') 
              content = file.read() 
              print(content) 
              file.close()
